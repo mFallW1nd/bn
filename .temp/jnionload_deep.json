@@ -1,0 +1,1352 @@
+{
+  "six_targets": [
+    {
+      "pc": "0x1a10c8",
+      "targets": [
+        "0x1a10cc",
+        "0x1a1108",
+        "0x1a114c",
+        "0x1a1184",
+        "0x1a11c4",
+        "0x1a1214"
+      ],
+      "trace": {
+        "reg": "x8",
+        "v": 5,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a10c4",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x8",
+            "v": 4
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 8
+          }
+        },
+        "children": [
+          {
+            "reg": "x8",
+            "v": 4,
+            "def_op": "LLIL_REG_PHI",
+            "pc": "0x1a10bc",
+            "phi": [
+              {
+                "reg": "x8",
+                "v": 3,
+                "def_op": "LLIL_SET_REG_SSA",
+                "pc": "0x1a0bf4",
+                "expr": {
+                  "op": "LLIL_ADD",
+                  "sz": 8,
+                  "l": {
+                    "op": "LLIL_REG_SSA",
+                    "reg": "x10",
+                    "v": 2
+                  },
+                  "r": {
+                    "op": "LLIL_REG_SSA",
+                    "reg": "x9",
+                    "v": 3
+                  }
+                },
+                "children": [
+                  {
+                    "reg": "x10",
+                    "v": 2,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a0be8",
+                    "expr": {
+                      "op": "LLIL_ADD",
+                      "sz": 8,
+                      "l": {
+                        "op": "LLIL_REG_SSA",
+                        "reg": "x10",
+                        "v": 1
+                      },
+                      "r": {
+                        "op": "LLIL_CONST",
+                        "k": "0x14c"
+                      }
+                    },
+                    "children": [
+                      {
+                        "reg": "x10",
+                        "v": 1,
+                        "def_op": "LLIL_SET_REG_SSA",
+                        "pc": "0x1a0bdc",
+                        "expr": {
+                          "op": "LLIL_CONST_PTR",
+                          "k": "0x1a1000"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "reg": "x9",
+                    "v": 3,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a0be4",
+                    "expr": {
+                      "op": "LLIL_ZX",
+                      "sz": 8,
+                      "x": {
+                        "op": "LLIL_OR",
+                        "sz": 4,
+                        "l": {
+                          "op": "LLIL_REG_SSA_PARTIAL",
+                          "reg": "x9",
+                          "v": 2,
+                          "sz": 4
+                        },
+                        "r": {
+                          "op": "LLIL_CONST",
+                          "k": "0x38f0000"
+                        }
+                      }
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "reg": "x8",
+                "v": 58,
+                "def_op": "LLIL_REG_PHI",
+                "pc": "0x1a172c",
+                "phi": [
+                  {
+                    "reg": "x8",
+                    "v": 56,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a1728",
+                    "expr": {
+                      "op": "LLIL_REG_SSA",
+                      "reg": "x8",
+                      "v": 55
+                    },
+                    "children": []
+                  },
+                  {
+                    "reg": "x8",
+                    "v": 57,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a1728",
+                    "expr": {
+                      "op": "LLIL_REG_SSA",
+                      "reg": "x9",
+                      "v": 41
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "reg": "x8",
+                "v": 143,
+                "def_op": "LLIL_REG_PHI",
+                "pc": "0x1a106c",
+                "phi": [
+                  {
+                    "reg": "x8",
+                    "v": 141,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a1068",
+                    "expr": {
+                      "op": "LLIL_REG_SSA",
+                      "reg": "x9",
+                      "v": 121
+                    },
+                    "children": []
+                  },
+                  {
+                    "reg": "x8",
+                    "v": 142,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a1068",
+                    "expr": {
+                      "op": "LLIL_REG_SSA",
+                      "reg": "x8",
+                      "v": 140
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "reg": "x8",
+                "v": 244,
+                "def_op": "LLIL_SET_REG_SSA",
+                "pc": "0x1a1274",
+                "expr": {
+                  "op": "LLIL_ADD",
+                  "sz": 8,
+                  "l": {
+                    "op": "LLIL_REG_SSA",
+                    "reg": "x8",
+                    "v": 243
+                  },
+                  "r": {
+                    "op": "LLIL_REG_SSA",
+                    "reg": "x10",
+                    "v": 228
+                  }
+                },
+                "children": [
+                  {
+                    "reg": "x8",
+                    "v": 243,
+                    "def_op": "LLIL_REG_PHI",
+                    "pc": "0x1a1258",
+                    "phi": [
+                      {
+                        "reg": "x8",
+                        "v": 138,
+                        "def_op": "LLIL_SET_REG_SSA",
+                        "pc": "0x1a1010",
+                        "expr": {
+                          "op": "LLIL_ADD",
+                          "sz": 8,
+                          "l": {
+                            "op": "LLIL_REG_SSA",
+                            "reg": "x10",
+                            "v": 114
+                          },
+                          "r": {
+                            "op": "LLIL_REG_SSA",
+                            "reg": "x8",
+                            "v": 137
+                          }
+                        },
+                        "children": [
+                          {
+                            "reg": "x10",
+                            "v": 114,
+                            "def_op": "LLIL_SET_REG_SSA",
+                            "pc": "0x1a100c",
+                            "expr": {
+                              "op": "LLIL_ADD",
+                              "sz": 8,
+                              "l": {
+                                "op": "LLIL_REG_SSA",
+                                "reg": "x10",
+                                "v": 113
+                              },
+                              "r": {
+                                "op": "LLIL_CONST",
+                                "k": "0x184"
+                              }
+                            },
+                            "children": [
+                              {
+                                "reg": "x10",
+                                "v": 113,
+                                "def_op": "LLIL_SET_REG_SSA",
+                                "pc": "0x1a1004",
+                                "expr": {
+                                  "op": "LLIL_CONST_PTR",
+                                  "k": "0x1a1000"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "reg": "x8",
+                            "v": 137,
+                            "def_op": "LLIL_SET_REG_SSA",
+                            "pc": "0x1a1008",
+                            "expr": {
+                              "op": "LLIL_ZX",
+                              "sz": 8,
+                              "x": {
+                                "op": "LLIL_OR",
+                                "sz": 4,
+                                "l": {
+                                  "op": "LLIL_REG_SSA_PARTIAL",
+                                  "reg": "x8",
+                                  "v": 136,
+                                  "sz": 4
+                                },
+                                "r": {
+                                  "op": "LLIL_CONST",
+                                  "k": "0x7550000"
+                                }
+                              }
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "reg": "x8",
+                        "v": 158,
+                        "def_op": "LLIL_SET_REG_SSA",
+                        "pc": "0x1a0ca0",
+                        "expr": {
+                          "op": "LLIL_ADD",
+                          "sz": 8,
+                          "l": {
+                            "op": "LLIL_REG_SSA",
+                            "reg": "x10",
+                            "v": 140
+                          },
+                          "r": {
+                            "op": "LLIL_REG_SSA",
+                            "reg": "x8",
+                            "v": 157
+                          }
+                        },
+                        "children": [
+                          {
+                            "reg": "x10",
+                            "v": 140,
+                            "def_op": "LLIL_SET_REG_SSA",
+                            "pc": "0x1a0c9c",
+                            "expr": {
+                              "op": "LLIL_ADD",
+                              "sz": 8,
+                              "l": {
+                                "op": "LLIL_REG_SSA",
+                                "reg": "x10",
+                                "v": 139
+                              },
+                              "r": {
+                                "op": "LLIL_CONST",
+                                "k": "0x108"
+                              }
+                            },
+                            "children": [
+                              {
+                                "reg": "x10",
+                                "v": 139,
+                                "def_op": "LLIL_SET_REG_SSA",
+                                "pc": "0x1a0c94",
+                                "expr": {
+                                  "op": "LLIL_CONST_PTR",
+                                  "k": "0x1a1000"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "reg": "x8",
+                            "v": 157,
+                            "def_op": "LLIL_SET_REG_SSA",
+                            "pc": "0x1a0c98",
+                            "expr": {
+                              "op": "LLIL_ZX",
+                              "sz": 8,
+                              "x": {
+                                "op": "LLIL_OR",
+                                "sz": 4,
+                                "l": {
+                                  "op": "LLIL_REG_SSA_PARTIAL",
+                                  "reg": "x8",
+                                  "v": 156,
+                                  "sz": 4
+                                },
+                                "r": {
+                                  "op": "LLIL_CONST",
+                                  "k": "0x7550000"
+                                }
+                              }
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "reg": "x8",
+                        "v": 194,
+                        "def_op": "LLIL_SET_REG_SSA",
+                        "pc": "0x1a12fc",
+                        "expr": {
+                          "op": "LLIL_ADD",
+                          "sz": 8,
+                          "l": {
+                            "op": "LLIL_REG_SSA",
+                            "reg": "x10",
+                            "v": 181
+                          },
+                          "r": {
+                            "op": "LLIL_REG_SSA",
+                            "reg": "x8",
+                            "v": 193
+                          }
+                        },
+                        "children": [
+                          {
+                            "reg": "x10",
+                            "v": 181,
+                            "def_op": "LLIL_SET_REG_SSA",
+                            "pc": "0x1a12f4",
+                            "expr": {
+                              "op": "LLIL_ADD",
+                              "sz": 8,
+                              "l": {
+                                "op": "LLIL_REG_SSA",
+                                "reg": "x10",
+                                "v": 180
+                              },
+                              "r": {
+                                "op": "LLIL_CONST",
+                                "k": "0xcc"
+                              }
+                            },
+                            "children": [
+                              {
+                                "reg": "x10",
+                                "v": 180,
+                                "def_op": "LLIL_SET_REG_SSA",
+                                "pc": "0x1a12e8",
+                                "expr": {
+                                  "op": "LLIL_CONST_PTR",
+                                  "k": "0x1a1000"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "reg": "x8",
+                            "v": 193,
+                            "def_op": "LLIL_SET_REG_SSA",
+                            "pc": "0x1a12f0",
+                            "expr": {
+                              "op": "LLIL_ZX",
+                              "sz": 8,
+                              "x": {
+                                "op": "LLIL_OR",
+                                "sz": 4,
+                                "l": {
+                                  "op": "LLIL_REG_SSA_PARTIAL",
+                                  "reg": "x8",
+                                  "v": 192,
+                                  "sz": 4
+                                },
+                                "r": {
+                                  "op": "LLIL_CONST",
+                                  "k": "0x7550000"
+                                }
+                              }
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "reg": "x10",
+                    "v": 228,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a126c",
+                    "expr": {
+                      "op": "LLIL_OR",
+                      "sz": 8,
+                      "l": {
+                        "op": "LLIL_REG_SSA",
+                        "reg": "x10",
+                        "v": 227
+                      },
+                      "r": {
+                        "op": "LLIL_CONST",
+                        "k": "0xfc3a0000"
+                      }
+                    },
+                    "children": [
+                      {
+                        "reg": "x10",
+                        "v": 227,
+                        "def_op": "LLIL_SET_REG_SSA",
+                        "pc": "0x1a126c",
+                        "expr": {
+                          "op": "LLIL_AND",
+                          "sz": 8,
+                          "l": {
+                            "op": "LLIL_REG_SSA",
+                            "reg": "x10",
+                            "v": 226
+                          },
+                          "r": {
+                            "op": "LLIL_CONST",
+                            "k": "0xffffffff0000ffff"
+                          }
+                        },
+                        "children": [
+                          {
+                            "reg": "x10",
+                            "v": 226,
+                            "def_op": "LLIL_SET_REG_SSA",
+                            "pc": "0x1a1264",
+                            "expr": {
+                              "op": "LLIL_CONST",
+                              "k": "0xffffffffffff0b24"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "reg": "x9",
+            "v": 8,
+            "def_op": "LLIL_SET_REG_SSA",
+            "pc": "0x1a10c0",
+            "expr": {
+              "op": "LLIL_OR",
+              "sz": 8,
+              "l": {
+                "op": "LLIL_REG_SSA",
+                "reg": "x9",
+                "v": 7
+              },
+              "r": {
+                "op": "LLIL_CONST",
+                "k": "0xfc700000"
+              }
+            },
+            "children": [
+              {
+                "reg": "x9",
+                "v": 7,
+                "def_op": "LLIL_SET_REG_SSA",
+                "pc": "0x1a10c0",
+                "expr": {
+                  "op": "LLIL_AND",
+                  "sz": 8,
+                  "l": {
+                    "op": "LLIL_REG_SSA",
+                    "reg": "x9",
+                    "v": 6
+                  },
+                  "r": {
+                    "op": "LLIL_CONST",
+                    "k": "0xffffffff0000ffff"
+                  }
+                },
+                "children": [
+                  {
+                    "reg": "x9",
+                    "v": 6,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a10bc",
+                    "expr": {
+                      "op": "LLIL_CONST",
+                      "k": "0xffffffffffff00bc"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "pc": "0x1a146c",
+      "targets": [
+        "0x1a1470",
+        "0x1a14a4",
+        "0x1a14dc",
+        "0x1a1524",
+        "0x1a158c",
+        "0x1a15e0"
+      ],
+      "trace": {
+        "reg": "x8",
+        "v": 69,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1468",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x8",
+            "v": 68
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 57
+          }
+        },
+        "children": [
+          {
+            "reg": "x8",
+            "v": 68,
+            "def_op": "LLIL_REG_PHI",
+            "pc": "0x1a1460",
+            "phi": [
+              {
+                "reg": "x8",
+                "v": 19,
+                "def_op": "LLIL_SET_REG_SSA",
+                "pc": "0x1a1160",
+                "expr": {
+                  "op": "LLIL_ADD",
+                  "sz": 8,
+                  "l": {
+                    "op": "LLIL_REG_SSA",
+                    "reg": "x11",
+                    "v": 14
+                  },
+                  "r": {
+                    "op": "LLIL_REG_SSA",
+                    "reg": "x8",
+                    "v": 18
+                  }
+                },
+                "children": [
+                  {
+                    "reg": "x11",
+                    "v": 14,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a115c",
+                    "expr": {
+                      "op": "LLIL_ADD",
+                      "sz": 8,
+                      "l": {
+                        "op": "LLIL_REG_SSA",
+                        "reg": "x11",
+                        "v": 13
+                      },
+                      "r": {
+                        "op": "LLIL_CONST",
+                        "k": "0x5e0"
+                      }
+                    },
+                    "children": [
+                      {
+                        "reg": "x11",
+                        "v": 13,
+                        "def_op": "LLIL_SET_REG_SSA",
+                        "pc": "0x1a1150",
+                        "expr": {
+                          "op": "LLIL_CONST_PTR",
+                          "k": "0x1a1000"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "reg": "x8",
+                    "v": 18,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a1158",
+                    "expr": {
+                      "op": "LLIL_ZX",
+                      "sz": 8,
+                      "x": {
+                        "op": "LLIL_OR",
+                        "sz": 4,
+                        "l": {
+                          "op": "LLIL_REG_SSA_PARTIAL",
+                          "reg": "x8",
+                          "v": 17,
+                          "sz": 4
+                        },
+                        "r": {
+                          "op": "LLIL_CONST",
+                          "k": "0x3e30000"
+                        }
+                      }
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "reg": "x8",
+                "v": 63,
+                "def_op": "LLIL_SET_REG_SSA",
+                "pc": "0x1a17a4",
+                "expr": {
+                  "op": "LLIL_ADD",
+                  "sz": 8,
+                  "l": {
+                    "op": "LLIL_REG_SSA",
+                    "reg": "x11",
+                    "v": 49
+                  },
+                  "r": {
+                    "op": "LLIL_REG_SSA",
+                    "reg": "x8",
+                    "v": 62
+                  }
+                },
+                "children": [
+                  {
+                    "reg": "x11",
+                    "v": 49,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a1798",
+                    "expr": {
+                      "op": "LLIL_ADD",
+                      "sz": 8,
+                      "l": {
+                        "op": "LLIL_REG_SSA",
+                        "reg": "x11",
+                        "v": 48
+                      },
+                      "r": {
+                        "op": "LLIL_CONST",
+                        "k": "0x524"
+                      }
+                    },
+                    "children": [
+                      {
+                        "reg": "x11",
+                        "v": 48,
+                        "def_op": "LLIL_SET_REG_SSA",
+                        "pc": "0x1a1788",
+                        "expr": {
+                          "op": "LLIL_CONST_PTR",
+                          "k": "0x1a1000"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "reg": "x8",
+                    "v": 62,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a1794",
+                    "expr": {
+                      "op": "LLIL_ZX",
+                      "sz": 8,
+                      "x": {
+                        "op": "LLIL_OR",
+                        "sz": 4,
+                        "l": {
+                          "op": "LLIL_REG_SSA_PARTIAL",
+                          "reg": "x8",
+                          "v": 61,
+                          "sz": 4
+                        },
+                        "r": {
+                          "op": "LLIL_CONST",
+                          "k": "0x3e30000"
+                        }
+                      }
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "reg": "x8",
+                "v": 67,
+                "def_op": "LLIL_SET_REG_SSA",
+                "pc": "0x1a17dc",
+                "expr": {
+                  "op": "LLIL_ADD",
+                  "sz": 8,
+                  "l": {
+                    "op": "LLIL_REG_SSA",
+                    "reg": "x11",
+                    "v": 53
+                  },
+                  "r": {
+                    "op": "LLIL_REG_SSA",
+                    "reg": "x8",
+                    "v": 66
+                  }
+                },
+                "children": [
+                  {
+                    "reg": "x11",
+                    "v": 53,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a17d8",
+                    "expr": {
+                      "op": "LLIL_ADD",
+                      "sz": 8,
+                      "l": {
+                        "op": "LLIL_REG_SSA",
+                        "reg": "x11",
+                        "v": 52
+                      },
+                      "r": {
+                        "op": "LLIL_CONST",
+                        "k": "0x470"
+                      }
+                    },
+                    "children": [
+                      {
+                        "reg": "x11",
+                        "v": 52,
+                        "def_op": "LLIL_SET_REG_SSA",
+                        "pc": "0x1a17cc",
+                        "expr": {
+                          "op": "LLIL_CONST_PTR",
+                          "k": "0x1a1000"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "reg": "x8",
+                    "v": 66,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a17d4",
+                    "expr": {
+                      "op": "LLIL_ZX",
+                      "sz": 8,
+                      "x": {
+                        "op": "LLIL_OR",
+                        "sz": 4,
+                        "l": {
+                          "op": "LLIL_REG_SSA_PARTIAL",
+                          "reg": "x8",
+                          "v": 65,
+                          "sz": 4
+                        },
+                        "r": {
+                          "op": "LLIL_CONST",
+                          "k": "0x3e30000"
+                        }
+                      }
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "reg": "x8",
+                "v": 74,
+                "def_op": "LLIL_SET_REG_SSA",
+                "pc": "0x1a1488",
+                "expr": {
+                  "op": "LLIL_ADD",
+                  "sz": 8,
+                  "l": {
+                    "op": "LLIL_REG_SSA",
+                    "reg": "x10",
+                    "v": 56
+                  },
+                  "r": {
+                    "op": "LLIL_REG_SSA",
+                    "reg": "x8",
+                    "v": 73
+                  }
+                },
+                "children": [
+                  {
+                    "reg": "x10",
+                    "v": 56,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a1484",
+                    "expr": {
+                      "op": "LLIL_ADD",
+                      "sz": 8,
+                      "l": {
+                        "op": "LLIL_REG_SSA",
+                        "reg": "x10",
+                        "v": 55
+                      },
+                      "r": {
+                        "op": "LLIL_CONST",
+                        "k": "0x4a4"
+                      }
+                    },
+                    "children": [
+                      {
+                        "reg": "x10",
+                        "v": 55,
+                        "def_op": "LLIL_SET_REG_SSA",
+                        "pc": "0x1a1478",
+                        "expr": {
+                          "op": "LLIL_CONST_PTR",
+                          "k": "0x1a1000"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "reg": "x8",
+                    "v": 73,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a1480",
+                    "expr": {
+                      "op": "LLIL_ZX",
+                      "sz": 8,
+                      "x": {
+                        "op": "LLIL_OR",
+                        "sz": 4,
+                        "l": {
+                          "op": "LLIL_REG_SSA_PARTIAL",
+                          "reg": "x8",
+                          "v": 72,
+                          "sz": 4
+                        },
+                        "r": {
+                          "op": "LLIL_CONST",
+                          "k": "0x3e30000"
+                        }
+                      }
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "reg": "x8",
+                "v": 182,
+                "def_op": "LLIL_SET_REG_SSA",
+                "pc": "0x1a1818",
+                "expr": {
+                  "op": "LLIL_ADD",
+                  "sz": 8,
+                  "l": {
+                    "op": "LLIL_REG_SSA",
+                    "reg": "x8",
+                    "v": 181
+                  },
+                  "r": {
+                    "op": "LLIL_REG_SSA",
+                    "reg": "x10",
+                    "v": 172
+                  }
+                },
+                "children": [
+                  {
+                    "reg": "x8",
+                    "v": 181,
+                    "def_op": "LLIL_REG_PHI",
+                    "pc": "0x1a1800",
+                    "phi": [
+                      {
+                        "reg": "x8",
+                        "v": 161,
+                        "def_op": "LLIL_SET_REG_SSA",
+                        "pc": "0x1a0ce8",
+                        "expr": {
+                          "op": "LLIL_ADD",
+                          "sz": 8,
+                          "l": {
+                            "op": "LLIL_REG_SSA",
+                            "reg": "x12",
+                            "v": 69
+                          },
+                          "r": {
+                            "op": "LLIL_REG_SSA",
+                            "reg": "x11",
+                            "v": 126
+                          }
+                        },
+                        "children": [
+                          {
+                            "reg": "x12",
+                            "v": 69,
+                            "def_op": "LLIL_SET_REG_SSA",
+                            "pc": "0x1a0cd8",
+                            "expr": {
+                              "op": "LLIL_ADD",
+                              "sz": 8,
+                              "l": {
+                                "op": "LLIL_REG_SSA",
+                                "reg": "x12",
+                                "v": 68
+                              },
+                              "r": {
+                                "op": "LLIL_CONST",
+                                "k": "0x4dc"
+                              }
+                            },
+                            "children": [
+                              {
+                                "reg": "x12",
+                                "v": 68,
+                                "def_op": "LLIL_SET_REG_SSA",
+                                "pc": "0x1a0cd0",
+                                "expr": {
+                                  "op": "LLIL_CONST_PTR",
+                                  "k": "0x1a1000"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "reg": "x11",
+                            "v": 126,
+                            "def_op": "LLIL_SET_REG_SSA",
+                            "pc": "0x1a0cd4",
+                            "expr": {
+                              "op": "LLIL_ZX",
+                              "sz": 8,
+                              "x": {
+                                "op": "LLIL_OR",
+                                "sz": 4,
+                                "l": {
+                                  "op": "LLIL_REG_SSA_PARTIAL",
+                                  "reg": "x11",
+                                  "v": 125,
+                                  "sz": 4
+                                },
+                                "r": {
+                                  "op": "LLIL_CONST",
+                                  "k": "0x74d0000"
+                                }
+                              }
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "reg": "x8",
+                        "v": 180,
+                        "def_op": "LLIL_REG_PHI",
+                        "pc": "0x1a0dfc",
+                        "phi": [
+                          {
+                            "reg": "x8",
+                            "v": 178,
+                            "def_op": "LLIL_SET_REG_SSA",
+                            "pc": "0x1a0df8",
+                            "expr": {
+                              "op": "LLIL_REG_SSA",
+                              "reg": "x8",
+                              "v": 177
+                            },
+                            "children": []
+                          },
+                          {
+                            "reg": "x8",
+                            "v": 179,
+                            "def_op": "LLIL_SET_REG_SSA",
+                            "pc": "0x1a0df8",
+                            "expr": {
+                              "op": "LLIL_REG_SSA",
+                              "reg": "x9",
+                              "v": 162
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "reg": "x10",
+                    "v": 172,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a1810",
+                    "expr": {
+                      "op": "LLIL_OR",
+                      "sz": 8,
+                      "l": {
+                        "op": "LLIL_REG_SSA",
+                        "reg": "x10",
+                        "v": 171
+                      },
+                      "r": {
+                        "op": "LLIL_CONST",
+                        "k": "0xfc950000"
+                      }
+                    },
+                    "children": [
+                      {
+                        "reg": "x10",
+                        "v": 171,
+                        "def_op": "LLIL_SET_REG_SSA",
+                        "pc": "0x1a1810",
+                        "expr": {
+                          "op": "LLIL_AND",
+                          "sz": 8,
+                          "l": {
+                            "op": "LLIL_REG_SSA",
+                            "reg": "x10",
+                            "v": 170
+                          },
+                          "r": {
+                            "op": "LLIL_CONST",
+                            "k": "0xffffffff0000ffff"
+                          }
+                        },
+                        "children": [
+                          {
+                            "reg": "x10",
+                            "v": 170,
+                            "def_op": "LLIL_SET_REG_SSA",
+                            "pc": "0x1a1808",
+                            "expr": {
+                              "op": "LLIL_CONST",
+                              "k": "0xffffffffffff3028"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "reg": "x9",
+            "v": 57,
+            "def_op": "LLIL_SET_REG_SSA",
+            "pc": "0x1a1464",
+            "expr": {
+              "op": "LLIL_OR",
+              "sz": 8,
+              "l": {
+                "op": "LLIL_REG_SSA",
+                "reg": "x9",
+                "v": 56
+              },
+              "r": {
+                "op": "LLIL_CONST",
+                "k": "0xfc1c0000"
+              }
+            },
+            "children": [
+              {
+                "reg": "x9",
+                "v": 56,
+                "def_op": "LLIL_SET_REG_SSA",
+                "pc": "0x1a1464",
+                "expr": {
+                  "op": "LLIL_AND",
+                  "sz": 8,
+                  "l": {
+                    "op": "LLIL_REG_SSA",
+                    "reg": "x9",
+                    "v": 55
+                  },
+                  "r": {
+                    "op": "LLIL_CONST",
+                    "k": "0xffffffff0000ffff"
+                  }
+                },
+                "children": [
+                  {
+                    "reg": "x9",
+                    "v": 55,
+                    "def_op": "LLIL_SET_REG_SSA",
+                    "pc": "0x1a1460",
+                    "expr": {
+                      "op": "LLIL_CONST",
+                      "k": "0xfffffffffffff184"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "two_targets": [
+    {
+      "pc": "0x1a16e0",
+      "targets": [
+        "0x1a1440",
+        "0x1a1644"
+      ],
+      "trace": {
+        "reg": "x9",
+        "v": 37,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a16dc",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 36
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 40,
+              "sz": 4
+            }
+          }
+        },
+        "children": [
+          {
+            "reg": "x9",
+            "v": 36,
+            "def_op": "LLIL_SET_REG_SSA",
+            "pc": "0x1a16c4",
+            "expr": {
+              "op": "LLIL_LOAD_SSA",
+              "sz": 8,
+              "addr": {
+                "op": "LLIL_ADD",
+                "sz": 8,
+                "l": {
+                  "op": "LLIL_REG_SSA",
+                  "reg": "x22",
+                  "v": 2
+                },
+                "r": {
+                  "op": "LLIL_REG_SSA",
+                  "reg": "x10",
+                  "v": 32
+                }
+              }
+            },
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "pc": "0x1a175c",
+      "targets": [
+        "0x1a10bc",
+        "0x1a1860"
+      ],
+      "trace": {
+        "reg": "x9",
+        "v": 47,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1758",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 46
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 47,
+              "sz": 4
+            }
+          }
+        },
+        "children": [
+          {
+            "reg": "x9",
+            "v": 46,
+            "def_op": "LLIL_SET_REG_SSA",
+            "pc": "0x1a1744",
+            "expr": {
+              "op": "LLIL_LOAD_SSA",
+              "sz": 8,
+              "addr": {
+                "op": "LLIL_ADD",
+                "sz": 8,
+                "l": {
+                  "op": "LLIL_REG_SSA",
+                  "reg": "x22",
+                  "v": 2
+                },
+                "r": {
+                  "op": "LLIL_REG_SSA",
+                  "reg": "x9",
+                  "v": 45
+                }
+              }
+            },
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "pc": "0x1a1588",
+      "targets": [
+        "0x1a0c24",
+        "0x1a1860"
+      ],
+      "trace": {
+        "reg": "x9",
+        "v": 74,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1584",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 73
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 76,
+              "sz": 4
+            }
+          }
+        },
+        "children": [
+          {
+            "reg": "x9",
+            "v": 73,
+            "def_op": "LLIL_SET_REG_SSA",
+            "pc": "0x1a1570",
+            "expr": {
+              "op": "LLIL_LOAD_SSA",
+              "sz": 8,
+              "addr": {
+                "op": "LLIL_ADD",
+                "sz": 8,
+                "l": {
+                  "op": "LLIL_REG_SSA",
+                  "reg": "x22",
+                  "v": 2
+                },
+                "r": {
+                  "op": "LLIL_REG_SSA",
+                  "reg": "x9",
+                  "v": 72
+                }
+              }
+            },
+            "children": []
+          }
+        ]
+      }
+    }
+  ],
+  "data_keys": {
+    "0x74acd0": "0x3be1814",
+    "0x74ac80": "0x3ff7190",
+    "0x74acb0": "0x363ebb8",
+    "0x74acb8": "0x3be8f90",
+    "0x74acc0": "0x3a1c0a4",
+    "0x74acc8": "0x332179c"
+  }
+}

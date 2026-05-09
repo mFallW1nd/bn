@@ -1,0 +1,3255 @@
+{
+  "func": "JNI_OnLoad",
+  "addr": "0x1a0b8c",
+  "fde": [
+    "0x1a0b8c",
+    "0x1a1a60",
+    3796
+  ],
+  "cfg_blocks": 57,
+  "covered_pct": 100.0,
+  "indirect_jump_pcs": [
+    "0x1a0c20",
+    "0x1a10c8",
+    "0x1a1104",
+    "0x1a1148",
+    "0x1a1180",
+    "0x1a11c0",
+    "0x1a1210",
+    "0x1a1254",
+    "0x1a10b8",
+    "0x1a1650",
+    "0x1a146c",
+    "0x1a0e5c",
+    "0x1a0e4c",
+    "0x1a145c",
+    "0x1a17c0",
+    "0x1a17fc",
+    "0x1a14a0",
+    "0x1a1520",
+    "0x1a15dc",
+    "0x1a161c",
+    "0x1a0e98",
+    "0x1a0fe8",
+    "0x1a102c",
+    "0x1a0c30",
+    "0x1a1288",
+    "0x1a186c",
+    "0x1a1278",
+    "0x1a0c78",
+    "0x1a0cbc",
+    "0x1a0d08",
+    "0x1a0db0",
+    "0x1a12d4",
+    "0x1a1314",
+    "0x1a1368",
+    "0x1a13ac",
+    "0x1a1404",
+    "0x1a143c",
+    "0x1a185c",
+    "0x1a18d0",
+    "0x1a1940",
+    "0x1a199c",
+    "0x1a1a5c",
+    "0x1a181c",
+    "0x1a18f0",
+    "0x1a0d70",
+    "0x1a1640",
+    "0x1a16e0",
+    "0x1a175c",
+    "0x1a1588",
+    "0x1a0f18",
+    "0x1a0f94",
+    "0x1a1098",
+    "0x1a0e2c",
+    "0x1a1a10"
+  ],
+  "n_indirect_jumps": 54,
+  "data_load_bases": [],
+  "indirect_jumps": [
+    {
+      "pc": "0x1a0c20",
+      "n_targets": 1,
+      "targets": [
+        "0x1a10bc"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 4
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 4,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a0bf8",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x11",
+            "v": 3
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x13",
+            "v": 3
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a10c8",
+      "n_targets": 6,
+      "targets": [
+        "0x1a10cc",
+        "0x1a1108",
+        "0x1a114c",
+        "0x1a1184",
+        "0x1a11c4",
+        "0x1a1214"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x8",
+        "v": 5
+      },
+      "dest_def": {
+        "reg": "x8",
+        "v": 5,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a10c4",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x8",
+            "v": 4
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 8
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1104",
+      "n_targets": 1,
+      "targets": [
+        "0x1a109c"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x10",
+        "v": 5
+      },
+      "dest_def": {
+        "reg": "x10",
+        "v": 5,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a10fc",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x10",
+            "v": 4
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x11",
+              "v": 8,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1148",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1644"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x10",
+        "v": 7
+      },
+      "dest_def": {
+        "reg": "x10",
+        "v": 7,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1140",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x10",
+            "v": 6
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x11",
+              "v": 12,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1180",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1460"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x10",
+        "v": 9
+      },
+      "dest_def": {
+        "reg": "x10",
+        "v": 9,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1178",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x10",
+            "v": 8
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x11",
+              "v": 16,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a11c0",
+      "n_targets": 1,
+      "targets": [
+        "0x1a0e50"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x10",
+        "v": 11
+      },
+      "dest_def": {
+        "reg": "x10",
+        "v": 11,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a11b8",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x10",
+            "v": 10
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x11",
+              "v": 20,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1210",
+      "n_targets": 1,
+      "targets": [
+        "0x1a0e30"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 20
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 20,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1208",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 19
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 16,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1254",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1440"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 23
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 23,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a124c",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 22
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 21,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a10b8",
+      "n_targets": 1,
+      "targets": [
+        "0x1a0e50"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 26
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 26,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a10b0",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 25
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x11",
+            "v": 32
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1650",
+      "n_targets": 4,
+      "targets": [
+        "0x1a1654",
+        "0x1a16e4",
+        "0x1a1760",
+        "0x1a17c4"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x8",
+        "v": 42
+      },
+      "dest_def": {
+        "reg": "x8",
+        "v": 42,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a164c",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x8",
+            "v": 41
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 30
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a146c",
+      "n_targets": 6,
+      "targets": [
+        "0x1a1470",
+        "0x1a14a4",
+        "0x1a14dc",
+        "0x1a1524",
+        "0x1a158c",
+        "0x1a15e0"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x8",
+        "v": 69
+      },
+      "dest_def": {
+        "reg": "x8",
+        "v": 69,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1468",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x8",
+            "v": 68
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 57
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a0e5c",
+      "n_targets": 6,
+      "targets": [
+        "0x1a0e60",
+        "0x1a0e9c",
+        "0x1a0f1c",
+        "0x1a0f98",
+        "0x1a0fec",
+        "0x1a1030"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x8",
+        "v": 106
+      },
+      "dest_def": {
+        "reg": "x8",
+        "v": 106,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a0e58",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x8",
+            "v": 105
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 85
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a0e4c",
+      "n_targets": 1,
+      "targets": [
+        "0x1a0c24"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 133
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 133,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a0e44",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 132
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x11",
+            "v": 108
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a145c",
+      "n_targets": 1,
+      "targets": [
+        "0x1a127c"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 136
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 136,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1454",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 135
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x11",
+            "v": 112
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a17c0",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1460"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x10",
+        "v": 51
+      },
+      "dest_def": {
+        "reg": "x10",
+        "v": 51,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a17b8",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x10",
+            "v": 50
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x11",
+              "v": 51,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a17fc",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1460"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x10",
+        "v": 53
+      },
+      "dest_def": {
+        "reg": "x10",
+        "v": 53,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a17f4",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x10",
+            "v": 52
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x11",
+              "v": 55,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a14a0",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1460"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 59
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 59,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a149c",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 58
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 58,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1520",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1860"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 65
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 65,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a151c",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 64
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 64,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a15dc",
+      "n_targets": 1,
+      "targets": [
+        "0x1a0c24"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x10",
+        "v": 79
+      },
+      "dest_def": {
+        "reg": "x10",
+        "v": 79,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a15d4",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x10",
+            "v": 78
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x11",
+              "v": 71,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a161c",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1644"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x10",
+        "v": 81
+      },
+      "dest_def": {
+        "reg": "x10",
+        "v": 81,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1614",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x10",
+            "v": 80
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x11",
+              "v": 75,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a0e98",
+      "n_targets": 1,
+      "targets": [
+        "0x1a0e50"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 88
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 88,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a0e90",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 87
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 87,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a0fe8",
+      "n_targets": 1,
+      "targets": [
+        "0x1a127c"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 114
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 114,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a0fe4",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 113
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 111,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a102c",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1258"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 117
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 117,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1024",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 116
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 116,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a0c30",
+      "n_targets": 6,
+      "targets": [
+        "0x1a0c34",
+        "0x1a0c7c",
+        "0x1a0cc0",
+        "0x1a0d0c",
+        "0x1a0d74",
+        "0x1a0db4"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x8",
+        "v": 149
+      },
+      "dest_def": {
+        "reg": "x8",
+        "v": 149,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a0c2c",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x8",
+            "v": 148
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 140
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1288",
+      "n_targets": 6,
+      "targets": [
+        "0x1a128c",
+        "0x1a12d8",
+        "0x1a1318",
+        "0x1a136c",
+        "0x1a13b0",
+        "0x1a1408"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x8",
+        "v": 184
+      },
+      "dest_def": {
+        "reg": "x8",
+        "v": 184,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1284",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x8",
+            "v": 183
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 175
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a186c",
+      "n_targets": 6,
+      "targets": [
+        "0x1a1824",
+        "0x1a1870",
+        "0x1a18f4",
+        "0x1a1944",
+        "0x1a19a0",
+        "0x1a1a14"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x8",
+        "v": 216
+      },
+      "dest_def": {
+        "reg": "x8",
+        "v": 216,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1868",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x8",
+            "v": 215
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 196
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1278",
+      "n_targets": 1,
+      "targets": [
+        "0x1a10bc"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 231
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 231,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1270",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 230
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x11",
+            "v": 215
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a0c78",
+      "n_targets": 1,
+      "targets": [
+        "0x1a0e30"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 143
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 143,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a0c74",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 142
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 137,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a0cbc",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1258"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 146
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 146,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a0cb4",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 145
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 142,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a0d08",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1800"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x10",
+        "v": 147
+      },
+      "dest_def": {
+        "reg": "x10",
+        "v": 147,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a0d00",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x14",
+            "v": 24
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 146,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a0db0",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1440"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 158
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 158,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a0dac",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 157
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 161,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a12d4",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1644"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x10",
+        "v": 179
+      },
+      "dest_def": {
+        "reg": "x10",
+        "v": 179,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a12cc",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x11",
+            "v": 158
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 178,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1314",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1258"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x10",
+        "v": 184
+      },
+      "dest_def": {
+        "reg": "x10",
+        "v": 184,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1310",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x11",
+            "v": 161
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 183,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1368",
+      "n_targets": 1,
+      "targets": [
+        "0x1a18d4"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 181
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 181,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1360",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x12",
+            "v": 87
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x13",
+              "v": 45,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a13ac",
+      "n_targets": 1,
+      "targets": [
+        "0x1a0e30"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x10",
+        "v": 188
+      },
+      "dest_def": {
+        "reg": "x10",
+        "v": 188,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a13a4",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x10",
+            "v": 187
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x11",
+              "v": 167,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1404",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1860"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x10",
+        "v": 191
+      },
+      "dest_def": {
+        "reg": "x10",
+        "v": 191,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a13fc",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x10",
+            "v": 190
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x11",
+              "v": 171,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a143c",
+      "n_targets": 1,
+      "targets": [
+        "0x1a0c24"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x10",
+        "v": 193
+      },
+      "dest_def": {
+        "reg": "x10",
+        "v": 193,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1434",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x10",
+            "v": 192
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x11",
+              "v": 175,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a185c",
+      "n_targets": 1,
+      "targets": [
+        "0x1a18d4"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 198
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 198,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1854",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 197
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 199,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a18d0",
+      "n_targets": 1,
+      "targets": [
+        "0x1a18d4"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 202
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 202,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a18cc",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 201
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 205,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1940",
+      "n_targets": 1,
+      "targets": [
+        "0x1a109c"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x10",
+        "v": 211
+      },
+      "dest_def": {
+        "reg": "x10",
+        "v": 211,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1938",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x10",
+            "v": 210
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x11",
+              "v": 191,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a199c",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1440"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 213
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 213,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1994",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 212
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 214,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1a5c",
+      "n_targets": 1,
+      "targets": [
+        "0x1a109c"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x10",
+        "v": 224
+      },
+      "dest_def": {
+        "reg": "x10",
+        "v": 224,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1a54",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x10",
+            "v": 223
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x11",
+              "v": 211,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a181c",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1460"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 171
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 171,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1814",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 170
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x11",
+            "v": 156
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a18f0",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1860"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 234
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 234,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a18e8",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 233
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x11",
+            "v": 219
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a0d70",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1620"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 152
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 152,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a0d6c",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 151
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 153,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1640",
+      "n_targets": 1,
+      "targets": [
+        "0x1a1644"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 155
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 155,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1638",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 154
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x11",
+            "v": 140
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a16e0",
+      "n_targets": 2,
+      "targets": [
+        "0x1a1440",
+        "0x1a1644"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 37
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 37,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a16dc",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 36
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 40,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a175c",
+      "n_targets": 2,
+      "targets": [
+        "0x1a10bc",
+        "0x1a1860"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 47
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 47,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1758",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 46
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 47,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1588",
+      "n_targets": 2,
+      "targets": [
+        "0x1a0c24",
+        "0x1a1860"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 74
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 74,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1584",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 73
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 76,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a0f18",
+      "n_targets": 2,
+      "targets": [
+        "0x1a109c",
+        "0x1a1440"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 100
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 100,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a0f14",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x10",
+            "v": 96
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x9",
+              "v": 99,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a0f94",
+      "n_targets": 2,
+      "targets": [
+        "0x1a127c",
+        "0x1a18d4"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 110
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 110,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a0f90",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 109
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 103,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1098",
+      "n_targets": 2,
+      "targets": [
+        "0x1a10bc",
+        "0x1a127c"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 130
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 130,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1094",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x10",
+            "v": 123
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x9",
+              "v": 129,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a0e2c",
+      "n_targets": 2,
+      "targets": [
+        "0x1a127c",
+        "0x1a1800"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 168
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 168,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a0e28",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 167
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 168,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1a10",
+      "n_targets": 2,
+      "targets": [
+        "0x1a127c",
+        "0x1a1644"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 223
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 223,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1a0c",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 222
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 221,
+              "sz": 4
+            }
+          }
+        }
+      }
+    }
+  ],
+  "cfg": [
+    {
+      "start": "0x1a0b8c",
+      "end": "0x1a0c24",
+      "size": 152,
+      "preds": [],
+      "succs": [
+        [
+          "0x1a10bc",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a0c24",
+      "end": "0x1a0c34",
+      "size": 16,
+      "preds": [
+        "0x1a0e30",
+        "0x1a1524",
+        "0x1a158c",
+        "0x1a1408"
+      ],
+      "succs": [
+        [
+          "0x1a0c34",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a0c7c",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a0cc0",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a0d0c",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a0d74",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a0db4",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a0c34",
+      "end": "0x1a0c7c",
+      "size": 72,
+      "preds": [
+        "0x1a0c24"
+      ],
+      "succs": [
+        [
+          "0x1a0e30",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a0c7c",
+      "end": "0x1a0cc0",
+      "size": 68,
+      "preds": [
+        "0x1a0c24"
+      ],
+      "succs": [
+        [
+          "0x1a1258",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a0cc0",
+      "end": "0x1a0d0c",
+      "size": 76,
+      "preds": [
+        "0x1a0c24"
+      ],
+      "succs": [
+        [
+          "0x1a1800",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a0d0c",
+      "end": "0x1a0d74",
+      "size": 104,
+      "preds": [
+        "0x1a0c24"
+      ],
+      "succs": [
+        [
+          "0x1a1620",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a0d74",
+      "end": "0x1a0db4",
+      "size": 64,
+      "preds": [
+        "0x1a0c24"
+      ],
+      "succs": [
+        [
+          "0x1a1440",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a0db4",
+      "end": "0x1a0e30",
+      "size": 124,
+      "preds": [
+        "0x1a0c24"
+      ],
+      "succs": [
+        [
+          "0x1a127c",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1800",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a0e30",
+      "end": "0x1a0e50",
+      "size": 32,
+      "preds": [
+        "0x1a11c4",
+        "0x1a0c34",
+        "0x1a136c"
+      ],
+      "succs": [
+        [
+          "0x1a0c24",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a0e50",
+      "end": "0x1a0e60",
+      "size": 16,
+      "preds": [
+        "0x1a1184",
+        "0x1a109c",
+        "0x1a0e60"
+      ],
+      "succs": [
+        [
+          "0x1a0e60",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a0e9c",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a0f1c",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a0f98",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a0fec",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1030",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a0e60",
+      "end": "0x1a0e9c",
+      "size": 60,
+      "preds": [
+        "0x1a0e50"
+      ],
+      "succs": [
+        [
+          "0x1a0e50",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a0e9c",
+      "end": "0x1a0f1c",
+      "size": 128,
+      "preds": [
+        "0x1a0e50"
+      ],
+      "succs": [
+        [
+          "0x1a109c",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1440",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a0f1c",
+      "end": "0x1a0f98",
+      "size": 124,
+      "preds": [
+        "0x1a0e50"
+      ],
+      "succs": [
+        [
+          "0x1a127c",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a18d4",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a0f98",
+      "end": "0x1a0fec",
+      "size": 84,
+      "preds": [
+        "0x1a0e50"
+      ],
+      "succs": [
+        [
+          "0x1a127c",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a0fec",
+      "end": "0x1a1030",
+      "size": 68,
+      "preds": [
+        "0x1a0e50"
+      ],
+      "succs": [
+        [
+          "0x1a1258",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1030",
+      "end": "0x1a109c",
+      "size": 108,
+      "preds": [
+        "0x1a0e50"
+      ],
+      "succs": [
+        [
+          "0x1a10bc",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a127c",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a109c",
+      "end": "0x1a10bc",
+      "size": 32,
+      "preds": [
+        "0x1a10cc",
+        "0x1a0e9c",
+        "0x1a18f4",
+        "0x1a1a14"
+      ],
+      "succs": [
+        [
+          "0x1a0e50",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a10bc",
+      "end": "0x1a10cc",
+      "size": 16,
+      "preds": [
+        "0x1a0b8c",
+        "0x1a16e4",
+        "0x1a1030",
+        "0x1a1258"
+      ],
+      "succs": [
+        [
+          "0x1a10cc",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1108",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a114c",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1184",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a11c4",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1214",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a10cc",
+      "end": "0x1a1108",
+      "size": 60,
+      "preds": [
+        "0x1a10bc"
+      ],
+      "succs": [
+        [
+          "0x1a109c",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1108",
+      "end": "0x1a114c",
+      "size": 68,
+      "preds": [
+        "0x1a10bc"
+      ],
+      "succs": [
+        [
+          "0x1a1644",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a114c",
+      "end": "0x1a1184",
+      "size": 56,
+      "preds": [
+        "0x1a10bc"
+      ],
+      "succs": [
+        [
+          "0x1a1460",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1184",
+      "end": "0x1a11c4",
+      "size": 64,
+      "preds": [
+        "0x1a10bc"
+      ],
+      "succs": [
+        [
+          "0x1a0e50",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a11c4",
+      "end": "0x1a1214",
+      "size": 80,
+      "preds": [
+        "0x1a10bc"
+      ],
+      "succs": [
+        [
+          "0x1a0e30",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1214",
+      "end": "0x1a1258",
+      "size": 68,
+      "preds": [
+        "0x1a10bc"
+      ],
+      "succs": [
+        [
+          "0x1a1440",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1258",
+      "end": "0x1a127c",
+      "size": 36,
+      "preds": [
+        "0x1a0fec",
+        "0x1a0c7c",
+        "0x1a12d8"
+      ],
+      "succs": [
+        [
+          "0x1a10bc",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a127c",
+      "end": "0x1a128c",
+      "size": 16,
+      "preds": [
+        "0x1a1440",
+        "0x1a0f1c",
+        "0x1a0f98",
+        "0x1a1030",
+        "0x1a0db4",
+        "0x1a19a0"
+      ],
+      "succs": [
+        [
+          "0x1a128c",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a12d8",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1318",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a136c",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a13b0",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1408",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a128c",
+      "end": "0x1a12d8",
+      "size": 76,
+      "preds": [
+        "0x1a127c"
+      ],
+      "succs": [
+        [
+          "0x1a1644",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a12d8",
+      "end": "0x1a1318",
+      "size": 64,
+      "preds": [
+        "0x1a127c"
+      ],
+      "succs": [
+        [
+          "0x1a1258",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1318",
+      "end": "0x1a136c",
+      "size": 84,
+      "preds": [
+        "0x1a127c"
+      ],
+      "succs": [
+        [
+          "0x1a18d4",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a136c",
+      "end": "0x1a13b0",
+      "size": 68,
+      "preds": [
+        "0x1a127c"
+      ],
+      "succs": [
+        [
+          "0x1a0e30",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a13b0",
+      "end": "0x1a1408",
+      "size": 88,
+      "preds": [
+        "0x1a127c"
+      ],
+      "succs": [
+        [
+          "0x1a1860",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1408",
+      "end": "0x1a1440",
+      "size": 56,
+      "preds": [
+        "0x1a127c"
+      ],
+      "succs": [
+        [
+          "0x1a0c24",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1440",
+      "end": "0x1a1460",
+      "size": 32,
+      "preds": [
+        "0x1a1214",
+        "0x1a1654",
+        "0x1a0e9c",
+        "0x1a0d74",
+        "0x1a1944"
+      ],
+      "succs": [
+        [
+          "0x1a127c",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1460",
+      "end": "0x1a1470",
+      "size": 16,
+      "preds": [
+        "0x1a114c",
+        "0x1a1760",
+        "0x1a17c4",
+        "0x1a1470",
+        "0x1a1800"
+      ],
+      "succs": [
+        [
+          "0x1a1470",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a14a4",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a14dc",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1524",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a158c",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a15e0",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1470",
+      "end": "0x1a14a4",
+      "size": 52,
+      "preds": [
+        "0x1a1460"
+      ],
+      "succs": [
+        [
+          "0x1a1460",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a14a4",
+      "end": "0x1a14bc",
+      "size": 24,
+      "preds": [
+        "0x1a1460"
+      ],
+      "succs": [
+        [
+          "0x1a1820",
+          "TrueBranch"
+        ],
+        [
+          "0x1a14bc",
+          "FalseBranch"
+        ]
+      ],
+      "ends_indirect": false
+    },
+    {
+      "start": "0x1a14bc",
+      "end": "0x1a14dc",
+      "size": 32,
+      "preds": [
+        "0x1a14a4"
+      ],
+      "succs": [],
+      "ends_indirect": false
+    },
+    {
+      "start": "0x1a14dc",
+      "end": "0x1a1524",
+      "size": 72,
+      "preds": [
+        "0x1a1460"
+      ],
+      "succs": [
+        [
+          "0x1a1860",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1524",
+      "end": "0x1a158c",
+      "size": 104,
+      "preds": [
+        "0x1a1460"
+      ],
+      "succs": [
+        [
+          "0x1a0c24",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1860",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a158c",
+      "end": "0x1a15e0",
+      "size": 84,
+      "preds": [
+        "0x1a1460"
+      ],
+      "succs": [
+        [
+          "0x1a0c24",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a15e0",
+      "end": "0x1a1620",
+      "size": 64,
+      "preds": [
+        "0x1a1460"
+      ],
+      "succs": [
+        [
+          "0x1a1644",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1620",
+      "end": "0x1a1644",
+      "size": 36,
+      "preds": [
+        "0x1a0d0c"
+      ],
+      "succs": [
+        [
+          "0x1a1644",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1644",
+      "end": "0x1a1654",
+      "size": 16,
+      "preds": [
+        "0x1a1108",
+        "0x1a1654",
+        "0x1a15e0",
+        "0x1a128c",
+        "0x1a19a0",
+        "0x1a1620"
+      ],
+      "succs": [
+        [
+          "0x1a1654",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a16e4",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1760",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a17c4",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1654",
+      "end": "0x1a16e4",
+      "size": 144,
+      "preds": [
+        "0x1a1644"
+      ],
+      "succs": [
+        [
+          "0x1a1440",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1644",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a16e4",
+      "end": "0x1a1760",
+      "size": 124,
+      "preds": [
+        "0x1a1644"
+      ],
+      "succs": [
+        [
+          "0x1a10bc",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1860",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1760",
+      "end": "0x1a17c4",
+      "size": 100,
+      "preds": [
+        "0x1a1644"
+      ],
+      "succs": [
+        [
+          "0x1a1460",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a17c4",
+      "end": "0x1a1800",
+      "size": 60,
+      "preds": [
+        "0x1a1644"
+      ],
+      "succs": [
+        [
+          "0x1a1460",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1800",
+      "end": "0x1a1820",
+      "size": 32,
+      "preds": [
+        "0x1a0cc0",
+        "0x1a0db4"
+      ],
+      "succs": [
+        [
+          "0x1a1460",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1820",
+      "end": "0x1a1824",
+      "size": 4,
+      "preds": [
+        "0x1a14a4"
+      ],
+      "succs": [],
+      "ends_indirect": false
+    },
+    {
+      "start": "0x1a1824",
+      "end": "0x1a1860",
+      "size": 60,
+      "preds": [
+        "0x1a1860"
+      ],
+      "succs": [
+        [
+          "0x1a18d4",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1860",
+      "end": "0x1a1870",
+      "size": 16,
+      "preds": [
+        "0x1a16e4",
+        "0x1a14dc",
+        "0x1a1524",
+        "0x1a18d4",
+        "0x1a13b0"
+      ],
+      "succs": [
+        [
+          "0x1a1824",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1870",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a18f4",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1944",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a19a0",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1a14",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1870",
+      "end": "0x1a18d4",
+      "size": 100,
+      "preds": [
+        "0x1a1860"
+      ],
+      "succs": [
+        [
+          "0x1a18d4",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a18d4",
+      "end": "0x1a18f4",
+      "size": 32,
+      "preds": [
+        "0x1a0f1c",
+        "0x1a1318",
+        "0x1a1824",
+        "0x1a1870"
+      ],
+      "succs": [
+        [
+          "0x1a1860",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a18f4",
+      "end": "0x1a1944",
+      "size": 80,
+      "preds": [
+        "0x1a1860"
+      ],
+      "succs": [
+        [
+          "0x1a109c",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1944",
+      "end": "0x1a19a0",
+      "size": 92,
+      "preds": [
+        "0x1a1860"
+      ],
+      "succs": [
+        [
+          "0x1a1440",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a19a0",
+      "end": "0x1a1a14",
+      "size": 116,
+      "preds": [
+        "0x1a1860"
+      ],
+      "succs": [
+        [
+          "0x1a127c",
+          "IndirectBranch"
+        ],
+        [
+          "0x1a1644",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    },
+    {
+      "start": "0x1a1a14",
+      "end": "0x1a1a60",
+      "size": 76,
+      "preds": [
+        "0x1a1860"
+      ],
+      "succs": [
+        [
+          "0x1a109c",
+          "IndirectBranch"
+        ]
+      ],
+      "ends_indirect": true
+    }
+  ],
+  "samples": [
+    {
+      "pc": "0x1a0c20",
+      "n_targets": 1,
+      "targets": [
+        "0x1a10bc"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 4
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 4,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a0bf8",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x11",
+            "v": 3
+          },
+          "r": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x13",
+            "v": 3
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a0c78",
+      "n_targets": 1,
+      "targets": [
+        "0x1a0e30"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 143
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 143,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a0c74",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 142
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 137,
+              "sz": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "pc": "0x1a1a10",
+      "n_targets": 2,
+      "targets": [
+        "0x1a127c",
+        "0x1a1644"
+      ],
+      "more_targets": 0,
+      "dest_skel": {
+        "op": "LLIL_REG_SSA",
+        "reg": "x9",
+        "v": 223
+      },
+      "dest_def": {
+        "reg": "x9",
+        "v": 223,
+        "def_op": "LLIL_SET_REG_SSA",
+        "pc": "0x1a1a0c",
+        "expr": {
+          "op": "LLIL_ADD",
+          "sz": 8,
+          "l": {
+            "op": "LLIL_REG_SSA",
+            "reg": "x9",
+            "v": 222
+          },
+          "r": {
+            "op": "LLIL_SX",
+            "sz": 8,
+            "x": {
+              "op": "LLIL_REG_SSA_PARTIAL",
+              "reg": "x10",
+              "v": 221,
+              "sz": 4
+            }
+          }
+        }
+      }
+    }
+  ]
+}

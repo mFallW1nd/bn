@@ -1,0 +1,315 @@
+{
+  "calling_convention": "cdecl",
+  "function": {
+    "address": "0x1a0b8c",
+    "name": "JNI_OnLoad",
+    "raw_name": "JNI_OnLoad"
+  },
+  "locals": [
+    {
+      "identifier": 576460751900770304,
+      "index": 0,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-384:0:576460751900770304",
+      "name": "var_180",
+      "source_type": "StackVariableSourceType",
+      "storage": -384,
+      "type": "uint64_t"
+    },
+    {
+      "identifier": 576460751909158976,
+      "index": 64,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-376:64:576460751909158976",
+      "name": "var_178",
+      "source_type": "StackVariableSourceType",
+      "storage": -376,
+      "type": "int64_t*"
+    },
+    {
+      "identifier": 576460751917547520,
+      "index": 0,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-368:0:576460751917547520",
+      "name": "var_170",
+      "source_type": "StackVariableSourceType",
+      "storage": -368,
+      "type": "int64_t**"
+    },
+    {
+      "identifier": 576460751925936128,
+      "index": 0,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-360:0:576460751925936128",
+      "name": "var_168",
+      "source_type": "StackVariableSourceType",
+      "storage": -360,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460751925938828,
+      "index": 2700,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-360:2700:576460751925938828",
+      "name": "var_168_1",
+      "source_type": "StackVariableSourceType",
+      "storage": -360,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460751934324736,
+      "index": 0,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-352:0:576460751934324736",
+      "name": "var_160",
+      "source_type": "StackVariableSourceType",
+      "storage": -352,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460751934327528,
+      "index": 2792,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-352:2792:576460751934327528",
+      "name": "var_160_1",
+      "source_type": "StackVariableSourceType",
+      "storage": -352,
+      "type": "int32_t*"
+    },
+    {
+      "identifier": 576460751935285556,
+      "index": 960820,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-352:960820:576460751935285556",
+      "name": "var_160_2",
+      "source_type": "StackVariableSourceType",
+      "storage": -352,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460751942713344,
+      "index": 0,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-344:0:576460751942713344",
+      "name": "var_158",
+      "source_type": "StackVariableSourceType",
+      "storage": -344,
+      "type": "int64_t*"
+    },
+    {
+      "identifier": 576460751951101952,
+      "index": 0,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-336:0:576460751951101952",
+      "name": "var_150",
+      "source_type": "StackVariableSourceType",
+      "storage": -336,
+      "type": "void*"
+    },
+    {
+      "identifier": 576460751959490560,
+      "index": 0,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-328:0:576460751959490560",
+      "name": "var_148",
+      "source_type": "StackVariableSourceType",
+      "storage": -328,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460751960451424,
+      "index": 960864,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-328:960864:576460751960451424",
+      "name": "var_148_1",
+      "source_type": "StackVariableSourceType",
+      "storage": -328,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460751967879168,
+      "index": 0,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-320:0:576460751967879168",
+      "name": "var_140",
+      "source_type": "StackVariableSourceType",
+      "storage": -320,
+      "type": "int32_t"
+    },
+    {
+      "identifier": 576460751967880900,
+      "index": 1732,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-320:1732:576460751967880900",
+      "name": "var_140_1",
+      "source_type": "StackVariableSourceType",
+      "storage": -320,
+      "type": "int32_t"
+    },
+    {
+      "identifier": 576460752144039936,
+      "index": 0,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-152:0:576460752144039936",
+      "name": "var_98",
+      "source_type": "StackVariableSourceType",
+      "storage": -152,
+      "type": "int64_t*"
+    },
+    {
+      "identifier": 576460752152428544,
+      "index": 0,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-144:0:576460752152428544",
+      "name": "var_90",
+      "source_type": "StackVariableSourceType",
+      "storage": -144,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460752185983036,
+      "index": 60,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-112:60:576460752185983036",
+      "name": "var_70",
+      "source_type": "StackVariableSourceType",
+      "storage": -112,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460752203284480,
+      "index": 524288,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-96:524288:576460752203284480",
+      "name": "var_60",
+      "source_type": "StackVariableSourceType",
+      "storage": -96,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460752211673088,
+      "index": 524288,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-88:524288:576460752211673088",
+      "name": "var_58",
+      "source_type": "StackVariableSourceType",
+      "storage": -88,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460752219537412,
+      "index": 4,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-80:4:576460752219537412",
+      "name": "var_50",
+      "source_type": "StackVariableSourceType",
+      "storage": -80,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460752227926020,
+      "index": 4,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-72:4:576460752227926020",
+      "name": "var_48",
+      "source_type": "StackVariableSourceType",
+      "storage": -72,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460752236314632,
+      "index": 8,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-64:8:576460752236314632",
+      "name": "var_40",
+      "source_type": "StackVariableSourceType",
+      "storage": -64,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460752244703240,
+      "index": 8,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-56:8:576460752244703240",
+      "name": "var_38",
+      "source_type": "StackVariableSourceType",
+      "storage": -56,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460752253091852,
+      "index": 12,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-48:12:576460752253091852",
+      "name": "var_30",
+      "source_type": "StackVariableSourceType",
+      "storage": -48,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460752261480460,
+      "index": 12,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-40:12:576460752261480460",
+      "name": "var_28",
+      "source_type": "StackVariableSourceType",
+      "storage": -40,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460752269869072,
+      "index": 16,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-32:16:576460752269869072",
+      "name": "var_20",
+      "source_type": "StackVariableSourceType",
+      "storage": -32,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460752278257680,
+      "index": 16,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-24:16:576460752278257680",
+      "name": "var_18",
+      "source_type": "StackVariableSourceType",
+      "storage": -24,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460752286646292,
+      "index": 20,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-16:20:576460752286646292",
+      "name": "var_10",
+      "source_type": "StackVariableSourceType",
+      "storage": -16,
+      "type": "int64_t"
+    },
+    {
+      "identifier": 576460752295034900,
+      "index": 20,
+      "is_parameter": false,
+      "local_id": "0x1a0b8c:local:StackVariableSourceType:-8:20:576460752295034900",
+      "name": "var_8",
+      "source_type": "StackVariableSourceType",
+      "storage": -8,
+      "type": "int64_t"
+    }
+  ],
+  "parameters": [
+    {
+      "identifier": 1729382256945922048,
+      "index": 0,
+      "is_parameter": true,
+      "local_id": "0x1a0b8c:param:RegisterVariableSourceType:34:0:1729382256945922048",
+      "name": "arg1",
+      "source_type": "RegisterVariableSourceType",
+      "storage": 34,
+      "type": "int64_t*"
+    }
+  ],
+  "prototype": "uint64_t(int64_t* arg1)",
+  "return_type": "uint64_t",
+  "size": 1304
+}

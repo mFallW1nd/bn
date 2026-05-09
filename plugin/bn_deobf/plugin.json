@@ -1,0 +1,11 @@
+{
+  "pluginmetadataversion": 2,
+  "name": "BN Deobfuscator",
+  "type": [
+    "helper"
+  ],
+  "api": "python3",
+  "description": "Indirect-branch deobfuscator: per-function Workflow + right-click commands",
+  "author": "banteg",
+  "version": "0.1.0"
+}

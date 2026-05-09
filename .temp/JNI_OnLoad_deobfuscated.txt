@@ -1,0 +1,161 @@
+001a0b8c        int64_t fp
+001a0b8c        int64_t var_60 = fp
+001a0b8c        int64_t lr
+001a0b8c        int64_t var_58 = lr
+001a0b90        int64_t x28
+001a0b90        int64_t var_50 = x28
+001a0b90        int64_t x27
+001a0b90        int64_t var_48 = x27
+001a0b94        int64_t x26
+001a0b94        int64_t var_40 = x26
+001a0b94        int64_t x25
+001a0b94        int64_t var_38 = x25
+001a0b98        int64_t x24
+001a0b98        int64_t var_30 = x24
+001a0b98        int64_t x23
+001a0b98        int64_t var_28 = x23
+001a0b9c        int64_t x22
+001a0b9c        int64_t var_20 = x22
+001a0b9c        int64_t x21
+001a0b9c        int64_t var_18 = x21
+001a0ba0        int64_t x20
+001a0ba0        int64_t var_10 = x20
+001a0ba0        int64_t x19
+001a0ba0        int64_t var_8 = x19
+001a0ba8        uint64_t var_180
+001a0ba8        int64_t* sp = &var_180
+001a0bb0        uint64_t x11 = _ReadMSR(tpidr_el0)
+001a0bb4        var_180 = x11
+001a0bc8        int64_t var_70 = *(x11 + 0x28)
+001a0bcc        int64_t* var_98
+001a0bcc        int64_t* var_178 = &var_98
+001a0bd4        data_74acd0
+001a0bf4        void* const x8 = 0x3aa1090
+001a10c8        int64_t** var_170
+001a10c8        int64_t* var_158
+001a10c8        int64_t var_148
+001a10c8        while (true)
+001a10c8        switch (x8)
+001a1154        case 0x3aa1090
+001a1154        data_74acf0
+001a117c        var_170 = &var_98
+001a15e8        data_74ad10
+001a1600        int64_t x9_13 = *(*arg1 + 0x30)
+001a1668        while (true)
+001a1668        int32_t x0_3 = x9_13(arg1, var_170, 0x10006)
+001a166c        int32_t* x8_10 = sp - 0x10
+001a1670        sp = x8_10
+001a1690        *x8_10 = 0xffffffff
+001a16a8        int64_t x10_8
+001a16a8        if (x0_3 == 0)
+001a16a8        x10_8 = 0x38
+001a16a8        x10_8 = 0x60
+001a16c0        void* const x8_3
+001a16c0        if (x0_3 == 0)
+001a16c0        x8_3 = 0x79bb104
+001a16c0        x8_3 = 0x40eddb4
+001a16d4        int32_t x10_9
+001a16d4        if (x0_3 == 0)
+001a16d4        x10_9 = 0x4195714
+001a16d4        x10_9 = 0x8292b0
+001a16e0        switch (*(&data_74acb0 + x10_8) + sx.q(x10_9 - x8_3.d))
+001a16e0        case 0x1a1440
+001a16e0        break
+001a16e0        case 0x1a1644
+001a16e0        continue
+001a121c        case 0x3aa1158
+001a121c        int32_t x0 = sub_145fe0(0x7c0a58)
+001a1224        data_74ace8
+001a1250        int32_t var_140_1 = x0
+001a10c8        case 0x3d8b348
+001a10c8        break
+001a1440        data_74ace0
+001a1318        while (true)
+001a1318        int64_t* x0_1 = var_98
+001a1328        int64_t var_90
+001a1328        (*(*x0_1 + 0x6d8))(x0_1, &var_90)
+001a1334        int64_t* x11_3 = var_98
+001a1338        data_74ad08
+001a1348        void* const x8_7 = 0x716c854
+001a135c        data_7d00f8 = var_90
+001a1364        var_158 = x11_3
+001a18d4        void* var_150
+001a18d4        while (true)
+001a18d4        data_74ad00
+001a186c        switch (x8_7)
+001a1838        case 0x716c854
+001a1838        data_74ad08
+001a1840        x8_7 = 0x716c924
+001a1858        var_150 = data_74ad20
+001a185c        continue
+001a186c        case 0x716c924
+001a186c        break
+001a191c        data_74acc8
+001a193c        var_148:4.b = *(var_150 - 0x5915ac9c) & 1
+001a109c        data_74acc0
+001a1030        uint32_t x8_1 = zx.d(var_148:4.b)
+001a1068        if (x8_1 == 0)
+001a1068        x8 = 0x3aa1158
+001a1068        x8 = 0x3d8b348
+001a1070        int64_t x10_1
+001a1070        if (x8_1 == 0)
+001a1070        x10_1 = 0x20
+001a1070        x10_1 = 0x30
+001a108c        int32_t x9_1
+001a108c        if (x8_1 == 0)
+001a108c        x9_1 = 0x60a00
+001a108c        x9_1 = 0xec270
+001a1098        switch (*(&data_74acb0 + x10_1) + sx.q(x9_1 - x8.d))
+001a1098        case 0x1a10bc
+001a1098        break
+001a1098        case 0x1a127c
+001a1098        continue
+0048b434        int32_t x19_1
+0048b434        while (true)
+0048b434        __builtin_memset(sp, 0, 0x40)
+0048b438        int32_t x0_7
+0048b438        int128_t v0_1
+0048b438        int128_t v1_1
+0048b438        x0_7, v0_1, v1_1 = sub_2f5030(sp, &sp[9])
+0048b454        if ((x0_7 & 1) != 0 && *sp u<= arg1 && sp[1] u> arg1)
+0048b4c0        int64_t var_160_2 = sp[4]
+0048b4c8        var_180.o = *sp
+0048b4c8        var_170.o = *(sp + 0x10)
+0048b4cc        if (var_148 != 0)
+0048b4dc        int32_t i
+0048b4d8        i = __stlxr(__ldaxr(var_148) - 1, var_148)
+0048b4dc        do while (i != 0)
+0048b4e4        var_158.o = *(sp + 0x28)
+0048b4e8        int64_t x8_19 = sp[7]
+0048b4ec        int64_t var_148_1 = x8_19
+0048b4f0        if (x8_19 != 0)
+0048b500        int32_t i_1
+0048b4fc        i_1 = __stlxr(__ldaxr(x8_19) + 1, x8_19)
+0048b500        do while (i_1 != 0)
+0048b504        int64_t x8_20 = sp[7]
+0048b508        if (x8_20 != 0)
+0048b518        int32_t i_2
+0048b514        i_2 = __stlxr(__ldaxr(x8_20) - 1, x8_20)
+0048b518        do while (i_2 != 0)
+0048b51c        x19_1 = 1
+0048b4f0        break
+0048b458        int64_t x8_16 = sp[7]
+0048b45c        if (x8_16 != 0)
+0048b46c        int32_t i_3
+0048b468        i_3 = __stlxr(__ldaxr(x8_16) - 1, x8_16)
+0048b46c        do while (i_3 != 0)
+0048b420        if (fgets(&sp[9], 0x1000, &data_1a17c4) == 0)
+0048b474        x19_1 = 0
+0048b478        break
+0048b480        fclose(&data_1a17c4)
+0048b490        if (data_74acd8 != sp[0x209])
+0048b550        __stack_chk_fail()
+0048b550        noreturn
+0048b4a0        sp[0x210]
+0048b4a0        sp[0x211]
+0048b4a4        sp[0x20e]
+0048b4a4        sp[0x20f]
+0048b4a8        sp[0x20c]
+0048b4a8        sp[0x20d]
+0048b49c        sp[0x20a]
+0048b4b0        return zx.q(x19_1)

@@ -1,0 +1,389 @@
+001a0ba8        uint64_t var_180
+001a0ba8        int64_t* sp = &var_180
+001a0bb0        uint64_t x11 = _ReadMSR(tpidr_el0)
+001a0bb4        var_180 = x11
+001a0bb8        int64_t x11_1 = *(x11 + 0x28)
+001a0bcc        int64_t* var_98
+001a0bcc        int64_t* var_178 = &var_98
+001a0bd4        data_74acd0
+001a0bf4        void* const x8 = 0x3aa1090
+001a10c4        int32_t* var_160
+001a10c4        int64_t* var_158
+001a10c4        int64_t var_128
+001a10c4        int64_t* var_120
+001a10c4        int64_t var_118
+001a10c4        int32_t var_f0
+001a10c4        char var_e9
+001a10c4        int64_t* var_d0
+001a10c4        void* const x8_4
+001a10c4        void* x8_12
+001a10c4        while (true)
+001a10c4        label_1a10c4:
+001a10c8        int64_t** var_170
+001a10c8        int64_t var_168
+001a10c8        int64_t var_138
+001a10c8        void* var_130
+001a10c8        int64_t* var_f8
+001a10c8        int64_t var_d8
+001a10c8        char var_c4
+001a10c8        int32_t var_c0
+001a10c8        int64_t var_b8
+001a10c8        int64_t* var_b0
+001a10c8        int32_t var_9c
+001a10c8        void var_88
+001a10c8        void* const x8_3
+001a10c8        void* x8_20
+001a10c8        switch (x8)
+001a10d0        case 0x3aa1010
+001a10d0        data_74acc8
+001a10e4        x8 = 0x75cfaf0
+001a1100        var_f8 = &var_88
+001a1104        goto label_1a109c
+001a1110        case 0x3aa104c
+001a1110        data_74ad10
+001a1128        x8 = 0x40edcd4
+001a1144        char var_b9 = (var_c0 == 0 ? 1 : 0).b
+001a164c        label_1a164c:
+001a1650        switch (x8)
+001a1668        case 0x40edc44
+001a1668        int32_t x0_11 = var_168(arg1, var_170, 0x10006)
+001a166c        int32_t* x8_37 = sp - 0x10
+001a1670        sp = x8_37
+001a1674        var_160 = x8_37
+001a1690        *var_160 = 0xffffffff
+001a16a8        int64_t x10_34
+001a16a8        if (x0_11 == 0)
+001a16a8        x10_34 = 0x38
+001a16a8        x10_34 = 0x60
+001a16c0        if (x0_11 == 0)
+001a16c0        x8 = 0x79bb104
+001a16c0        x8 = 0x40eddb4
+001a16d4        int32_t x10_35
+001a16d4        if (x0_11 == 0)
+001a16d4        x10_35 = 0x4195714
+001a16d4        x10_35 = 0x8292b0
+001a16e0        switch (*(&data_74acb0 + x10_34) + sx.q(x10_35 - x8.d))
+001a16e0        case 0x1a1440, 0x1a1644
+001a16e0        break
+001a1728        case 0x40edcd4
+001a1728        if (zx.d(var_b9) != 0)
+001a1728        x8 = 0x3d159d0
+001a1728        x8 = 0x3aa1108
+001a1738        int64_t x9_72
+001a1738        if (zx.d(var_b9) != 0)
+001a1738        x9_72 = 0x50
+001a1738        x9_72 = 0x20
+001a1750        int32_t x10_37
+001a1750        if (zx.d(var_b9) != 0)
+001a1750        x10_37 = 0x27ac40
+001a1750        x10_37 = 0x609b0
+001a175c        switch (*(&data_74acb0 + x9_72) + sx.q(x10_37 - x8.d))
+001a175c        case 0x1a10bc
+001a175c        continue
+001a175c        case 0x1a1860
+001a175c        break
+001a1774        case 0x40edd50
+001a1774        *var_f8 = var_d8
+001a178c        void var_80
+001a178c        var_d0 = &var_80
+001a17a0        data_74acf0
+001a17bc        var_c4 = *(data_74ad40 - 0x5915ac9c)
+001a17c0        break
+001a17d0        case 0x40eddb4
+001a17d0        data_74acf0
+001a17f8        var_9c = *var_160
+001a17fc        break
+001a1154        case 0x3aa1090
+001a1154        data_74acf0
+001a1160        x8_20 = 0x3fd245c
+001a117c        var_170 = &var_98
+001a1468        label_1a1468:
+001a146c        switch (x8_20)
+001a147c        case 0x3fd22ec
+001a147c        data_74acf0
+001a14a0        break
+001a14b8        case 0x3fd2320
+001a14b8        if (*(var_180 + 0x28) == x11_1)
+001a14d8        return zx.q(var_9c)
+001a1820        __stack_chk_fail()
+001a1820        noreturn
+001a14ec        case 0x3fd2358
+001a14ec        *var_b0 = var_b8
+001a14f0        sub_146114(0x7c0a38)
+001a14fc        data_74ad00
+001a1508        x8 = 0x3d159d0
+001a1520        break
+001a1544        case 0x3fd23a0
+001a1544        int32_t temp0_1 = zx.d(var_c4) & 1
+001a1564        if (temp0_1 == 0)
+001a1564        x8 = 0x395e5f4
+001a1564        x8 = 0x3d159d0
+001a1568        int64_t x9_62
+001a1568        if (temp0_1 == 0)
+001a1568        x9_62 = 0
+001a1568        x9_62 = 0x50
+001a157c        int32_t x10_27
+001a157c        if (temp0_1 == 0)
+001a157c        x10_27 = 0x4c0660
+001a157c        x10_27 = 0x27ac40
+001a1588        switch (*(&data_74acb0 + x9_62) + sx.q(x10_27 - x8.d))
+001a1588        case 0x1a0c24, 0x1a1860
+001a1588        break
+001a15a0        case 0x3fd2408
+001a15a0        int64_t x0_9 = (data_74ad50 + 0x7fe01d84)()
+001a15b4        data_74acb0
+001a15c0        x8 = 0x395e5ac
+001a15d8        var_138 = x0_9
+001a15d8        var_130 = data_74ad28
+001a15dc        break
+001a15e8        case 0x3fd245c
+001a15e8        data_74ad10
+001a15fc        x8 = 0x40edc44
+001a1618        var_168 = *(*arg1 + 0x30)
+001a146c        goto label_1a164c
+001a1190        case 0x3aa10c8
+001a1190        data_74acc0
+001a11a0        x8_12 = 0x36c1b38
+001a11bc        var_e9 = (var_f0 == 0 ? 1 : 0).b
+001a11c0        goto label_1a0e58
+001a11d8        case 0x3aa1108
+001a11d8        int64_t x0_5 = (data_74ad60 + 0x7fe01d84)()
+001a11e0        data_74acb8
+001a11f4        x8_3 = 0x6b6c748
+001a120c        var_b8 = x0_5
+001a0e30        label_1a0e30:
+001a0e30        data_74acb0
+001a0e48        x8 = x8_3 - 0x320e110
+001a0e4c        break
+001a121c        case 0x3aa1158
+001a121c        int32_t x0_6 = sub_145fe0(0x7c0a58)
+001a1224        data_74ace8
+001a1238        x8 = 0x79bb158
+001a1250        int32_t var_140 = x0_6
+001a1440        label_1a1440:
+001a1440        data_74ace0
+001a1458        x8 -= 0x3c2fe54
+001a1284        label_1a1284:
+001a1288        char var_139
+001a1288        void* var_100
+001a1288        switch (x8)
+001a1298        case 0x3d8b224
+001a1298        data_74ad10
+001a12b4        x8 = 0x40edd50
+001a12d0        var_d8 = *(data_74ad38 - 0x5915ac9c)
+001a12d4        goto label_1a164c
+001a12dc        case 0x3d8b270
+001a12dc        void* var_108_1 = &var_88
+001a12dc        var_100 = &var_88
+001a12f8        data_74acd8
+001a12fc        x8_4 = 0x77004ec
+001a1314        goto label_1a125c
+001a1318        case 0x3d8b2b0
+001a1318        int64_t* x0_7 = var_98
+001a1328        int64_t var_90
+001a1328        (*(*x0_7 + 0x6d8))(x0_7, &var_90)
+001a1334        int64_t* x11_6 = var_98
+001a1338        data_74ad08
+001a1348        x8 = 0x716c854
+001a135c        data_7d00f8 = var_90
+001a1364        var_158 = x11_6
+001a1368        goto label_1a18d4
+001a1374        case 0x3d8b304
+001a1374        data_74acb8
+001a138c        x8_3 = 0x6b6c83c
+001a13a8        var_139 = (var_140 == 0 ? 1 : 0).b
+001a13ac        goto label_1a0e30
+001a13d4        case 0x3d8b348
+001a13d4        var_128 = *(data_74ad28 - 0x5915ac9c)
+001a13dc        x8 = 0x3d158fc
+001a13ec        data_74ad00
+001a1400        var_120 = *var_158 + 0x30
+001a1404        break
+001a1410        case 0x3d8b3a0
+001a1410        data_74acb0
+001a1420        x8 = 0x395e684
+001a1438        int64_t* var_a8 = var_98
+001a0c2c        label_1a0c2c:
+001a0c30        switch (x8)
+001a0c4c        case 0x395e5ac
+001a0c4c        *(var_130 - 0x5915ac9c) = var_138
+001a0c5c        data_74acb8
+001a0c60        x8_3 = 0x6b6c7fc
+001a0c78        goto label_1a0e30
+001a0c84        case 0x395e5f4
+001a0c84        int32_t x0 = sub_145fe0(0x7c0a38)
+001a0c8c        data_74acd8
+001a0ca0        x8_4 = 0x7700528
+001a0cb8        var_c0 = x0
+001a125c        label_1a125c:
+001a125c        data_74acd0
+001a1274        x8 = x8_4 - 0x3c5f4dc
+001a1278        continue
+001a0cdc        case 0x395e638
+001a0cdc        data_74acf8
+001a0ce8        x8 = 0x767f330
+001a0d04        var_b0 = data_74ad48 - 0x5915ac9c
+001a1800        label_1a1800:
+001a1800        data_74acf0
+001a1818        x8_20 = x8 - 0x36acfd8
+001a181c        goto label_1a1468
+001a0d38        case 0x395e684
+001a0d40        int32_t x11_3
+001a0d40        if ((*(*var_a8 + 0x6b8))(var_a8, var_118, var_100, 1) == 0)
+001a0d40        x11_3 = 0x10006
+001a0d40        x11_3 = -1
+001a0d4c        *var_160 = x11_3
+001a0d54        data_74ad18
+001a1624        data_74ad10
+001a163c        x8 = 0x40eddb4
+001a0d70        goto label_1a164c
+001a0d7c        case 0x395e6ec
+001a0d7c        sub_146114(0x7c0a58)
+001a0d84        data_74ace8
+001a0d98        x8 = 0x79bb19c
+001a0db0        break
+001a0df8        case 0x395e72c
+001a0df8        if (zx.d(var_139) != 0)
+001a0df8        x8 = 0x3d8b348
+001a0df8        x8 = 0x767f3e0
+001a0e08        int64_t x9_12
+001a0e08        if (zx.d(var_139) != 0)
+001a0e08        x9_12 = 0x30
+001a0e08        x9_12 = 0x48
+001a0e20        int32_t x10_2
+001a0e20        if (zx.d(var_139) != 0)
+001a0e20        x10_2 = 0xec270
+001a0e20        x10_2 = 0x378de8c
+001a0e2c        switch (*(&data_74acb0 + x9_12) + sx.q(x10_2 - x8.d))
+001a0e2c        case 0x1a127c
+001a0e2c        break
+001a0e2c        goto label_1a1800
+001a186c        while (true)
+001a186c        void* var_150
+001a186c        char var_109
+001a186c        void* var_e8
+001a186c        switch (x8)
+001a1838        case 0x3d158b0
+001a1838        data_74ad08
+001a1840        x8 = 0x716c924
+001a1858        var_150 = data_74ad20
+001a18d4        label_1a18d4:
+001a18d4        data_74ad00
+001a18ec        x8 -= 0x3456fa4
+001a18f0        continue
+001a1884        case 0x3d158fc
+001a1884        var_118 = (*var_120)(var_158, var_128)
+001a18a0        var_109 = (var_118 == 0 ? 1 : 0).b
+001a18b0        *var_160 = 0xffffffff
+001a18b4        data_74ad08
+001a18b8        x8 = 0x716c9d0
+001a18d0        goto label_1a18d4
+001a191c        case 0x3d15980
+001a191c        data_74acc8
+001a1924        x8 = 0x75cfc84
+001a193c        char var_144 = *(var_150 - 0x5915ac9c) & 1
+001a109c        label_1a109c:
+001a109c        data_74acc0
+001a10b4        x8_12 = x8 - 0x3f0e038
+001a0e58        label_1a0e58:
+001a0e5c        int64_t var_e0
+001a0e5c        switch (x8_12)
+001a0e64        case 0x36c1a7c
+001a0e64        int64_t x0_3 = var_e8()
+001a0e70        data_74acc0
+001a0e7c        x8_12 = 0x36c1bb4
+001a0e94        var_e0 = x0_3
+001a0e98        goto label_1a0e58
+001a0ee4        case 0x36c1ab8
+001a0ee4        int32_t temp1_1 = zx.d(*(data_74ad30 - 0x5915ac9c)) & 1
+001a0ef0        if (temp1_1 == 0)
+001a0ef0        x8 = 0x75cfc40
+001a0ef0        x8 = 0x79bb078
+001a0ef8        int64_t x10_4
+001a0ef8        if (temp1_1 == 0)
+001a0ef8        x10_4 = 0x18
+001a0ef8        x10_4 = 0x38
+001a0f0c        int32_t x9_19
+001a0f0c        if (temp1_1 == 0)
+001a0f0c        x9_19 = 0x444f540
+001a0f0c        x9_19 = 0x4195688
+001a0f18        switch (*(&data_74acb0 + x10_4) + sx.q(x9_19 - x8.d))
+001a0f18        case 0x1a109c
+001a0f18        goto label_1a109c
+001a0f18        case 0x1a1440
+001a0f18        goto label_1a1440
+001a0f60        case 0x36c1b38
+001a0f60        if (zx.d(var_e9) != 0)
+001a0f60        x8 = 0x3d8b224
+001a0f60        x8 = 0x716ca44
+001a0f70        int64_t x9_22
+001a0f70        if (zx.d(var_e9) != 0)
+001a0f70        x9_22 = 0x30
+001a0f70        x9_22 = 0x58
+001a0f88        int32_t x10_6
+001a0f88        if (zx.d(var_e9) != 0)
+001a0f88        x10_6 = 0xec14c
+001a0f88        x10_6 = 0x389475c
+001a0f94        switch (*(&data_74acb0 + x9_22) + sx.q(x10_6 - x8.d))
+001a0f94        case 0x1a127c
+001a0f94        break
+001a0fb4        case 0x36c1bb4
+001a0fb4        *(data_74ad38 - 0x5915ac9c) = var_e0
+001a0fb8        sub_146114(0x7c0a48)
+001a0fc4        data_74ace0
+001a0fd0        x8 = 0x3d8b224
+001a0fe8        break
+001a0ff4        case 0x36c1c08
+001a0ff4        int32_t x0_4 = sub_145fe0(0x7c0a48)
+001a0ffc        data_74acd8
+001a1010        x8_4 = 0x77005a4
+001a1028        var_f0 = x0_4
+001a102c        goto label_1a125c
+001a1030        case 0x36c1c4c
+001a1030        uint32_t x8_18 = zx.d(var_144)
+001a1068        if (x8_18 == 0)
+001a1068        x8 = 0x3aa1158
+001a1068        x8 = 0x3d8b348
+001a1070        int64_t x10_8
+001a1070        if (x8_18 == 0)
+001a1070        x10_8 = 0x20
+001a1070        x10_8 = 0x30
+001a108c        int32_t x9_30
+001a108c        if (x8_18 == 0)
+001a108c        x9_30 = 0x60a00
+001a108c        x9_30 = 0xec270
+001a1098        switch (*(&data_74acb0 + x10_8) + sx.q(x9_30 - x8.d))
+001a1098        case 0x1a10bc
+001a1098        goto label_1a10c4
+001a1098        case 0x1a127c
+001a1098        break
+001a0e5c        goto label_1a18d4
+001a196c        case 0x3d159d0
+001a196c        *var_d0 = *(data_74ad48 - 0x5915ac9c)
+001a1974        x8 = 0x79bb1f4
+001a1978        data_74ace8
+001a1998        void* const var_78_1 = &data_179ed8
+001a199c        goto label_1a1440
+001a19dc        case 0x3d15a2c
+001a19dc        if (zx.d(var_109) != 0)
+001a19dc        x8 = 0x40eddb4
+001a19dc        x8 = 0x3d8b270
+001a19ec        int64_t x9_96
+001a19ec        if (zx.d(var_109) != 0)
+001a19ec        x9_96 = 0x60
+001a19ec        x9_96 = 0x30
+001a1a04        int32_t x10_46
+001a1a04        if (zx.d(var_109) != 0)
+001a1a04        x10_46 = 0x8292b0
+001a1a04        x10_46 = 0xec198
+001a1a10        switch (*(&data_74acb0 + x9_96) + sx.q(x10_46 - x8.d))
+001a1a10        case 0x1a127c
+001a1a10        break
+001a1a10        case 0x1a1644
+001a1a10        goto label_1a164c
+001a1a24        case 0x3d15aa0
+001a1a24        data_74acc8
+001a1a38        x8 = 0x75cfab4
+001a1a58        var_e8 = data_74ad58 + 0x7fe01d84
+001a1a5c        goto label_1a109c
+001a186c        goto label_1a1284
